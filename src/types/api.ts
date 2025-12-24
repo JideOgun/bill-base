@@ -12,5 +12,5 @@ export interface AuthResult {
     email: string;
   };
   error?: string;
+  accountNotFound?: boolean;
 }
-
