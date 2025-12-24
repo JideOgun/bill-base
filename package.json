@@ -1,0 +1,57 @@
+{
+  "name": "bill-base",
+  "version": "1.0.0",
+  "description": "Cross Platform  Mobile Invoicing Application",
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "lint": "eslint . --ext .ts,.tsx",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JideOgun/bill-base.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JideOgun/bill-base/issues"
+  },
+  "homepage": "https://github.com/JideOgun/bill-base#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.89.0",
+    "expo": "^54.0.30",
+    "expo-constants": "^18.0.12",
+    "expo-file-system": "^19.0.21",
+    "expo-linking": "^8.0.11",
+    "expo-notifications": "^0.32.15",
+    "expo-router": "^6.0.21",
+    "expo-secure-store": "^15.0.8",
+    "expo-sharing": "^14.0.8",
+    "expo-sqlite": "^16.0.10",
+    "expo-status-bar": "^3.0.9",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-native-safe-area-context": "^5.6.2",
+    "react-native-screens": "~4.16.0",
+    "react-native-web": "^0.21.2",
+    "uuid": "^13.0.0",
+    "zod": "^4.2.1"
+  },
+  "devDependencies": {
+    "@types/react": "~19.1.10",
+    "@types/uuid": "^10.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.50.1",
+    "@typescript-eslint/parser": "^8.50.1",
+    "babel-plugin-module-resolver": "^5.0.2",
+    "dotenv": "^17.2.3",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.7.4",
+    "typescript": "^5.9.3"
+  }
+}
